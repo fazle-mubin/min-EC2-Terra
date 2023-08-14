@@ -12,5 +12,5 @@ data "aws_ami" "aws-Linux-Latest" {
 resource "aws_instance" "fazle-EC2" {
   ami           = data.aws_ami.aws-Linux-Latest.id
   subnet_id     = aws_subnet.fazle-subnet.id
-  //instance_type = "t2.micro"
+  instance_type = "t2.micro"
 }
