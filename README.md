@@ -18,7 +18,7 @@ In order to make an EC2 instance in Terraform with the absolutely mandatory reso
 
 After we have created our files with the necessary codes, we must make sure the required plugins are installed after which we have to go through different steps to totally apply the terraform infrastructure.
 1. Type “terraform init” and hit enter. Needed to install the necessary plugins.
-2. Type “terraform validate” and hit enter. Needed to ensure there are no Syntax errors in code.
+2. Type “terraform validate” and hit enter. Needed to ensure there are no Syntax errors and check reusable modules, including correctness of attribute names and value types in code.
 3. Type “terraform plan” and hit enter. Needed to see the things which will be added, changed or destroyed.
 4. Type “terraform apply” and hit enter. Needed to apply the infrastructure
 5. Type “yes” when the prompt comes if sure to apply. Needed to make sure again that the infrastructure will surely be applied.
